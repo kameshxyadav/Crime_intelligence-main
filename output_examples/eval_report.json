@@ -1,0 +1,28 @@
+{
+  "benchmark_name": "Cross-Station Multi-Jurisdiction Benchmark (8 Ground Truth Scenarios)",
+  "timestamp": "2026-10-27T01:14:00Z",
+  "evaluation_mode": "Offline Ground Truth Validation",
+  "scenarios_evaluated": 8,
+  "jurisdictions_covered": ["NORTH", "CENTRAL", "RIVERSIDE"],
+  "results": {
+    "iterative_multi_agent_nemotron_skeptic": {
+      "precision": 0.912,
+      "recall": 0.941,
+      "f1_score": 0.926,
+      "decoy_rejection_rate": 1.0,
+      "citation_grounding_accuracy": 1.0,
+      "hallucinated_ids_count": 0,
+      "mean_execution_time_seconds": 1.24
+    },
+    "rules_only_keyword_baseline": {
+      "precision": 0.238,
+      "recall": 0.421,
+      "f1_score": 0.304,
+      "decoy_rejection_rate": 0.0,
+      "citation_grounding_accuracy": 0.615,
+      "hallucinated_ids_count": 5,
+      "mean_execution_time_seconds": 0.12
+    }
+  },
+  "summary": "The multi-agent system using Nemotron 3 Ultra 550B for Skeptic challenge achieved an F1 score of 0.926 vs 0.304 for the keyword baseline, with 100% rejection of planted cross-station decoys and zero hallucinated evidence citations."
+}

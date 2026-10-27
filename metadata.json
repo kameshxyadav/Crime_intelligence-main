@@ -1,0 +1,43 @@
+{
+  "project_name": "Cross-Station Crime Intelligence",
+  "track": "Track 1: Solving Fragmented Intelligence",
+  "team_name": "Cross-Station AI",
+  "version": "1.0.0",
+  "sponsor_technology": {
+    "zetaris": {
+      "role": "Federated multi-source data layer",
+      "description": "Federates 5 siloed crime datasets across 3 police jurisdictions without ETL, executing cross-source joins across incidents, forensics, CCTV, and witness reports.",
+      "named_queries": [
+        "q_cross_station_incidents",
+        "q_forensic_toolmark_matches",
+        "q_cctv_vehicle_sightings",
+        "q_witness_corroboration",
+        "q_data_quality_flags"
+      ]
+    },
+    "meterless_engines": {
+      "engines_used": ["world_model", "hmem"],
+      "world_model": "Maintains shared investigation state and canonical entity resolution across Planner, Finder, Analyst, and Skeptic agents.",
+      "hmem": "Bounded human-in-the-loop memory recording investigator approvals and rejections to adjust future link confidence weights (+-0.08 cap)."
+    },
+    "nightshift": {
+      "role": "Primary AI Gateway (:8088/v1)",
+      "description": "OpenAI-compatible gateway routing NVIDIA Nemotron models. Zero raw API keys in application code; all requests logged with model name and receipt IDs.",
+      "pinned_models": {
+        "fast": "nvidia/nemotron-3.5-lightning-30b-a3b",
+        "reasoning": "nvidia/nemotron-3-ultra-550b-a55b"
+      }
+    },
+    "cursor": "Not used"
+  },
+  "judge_path": {
+    "entry_point": "python run.py",
+    "api_endpoint": "POST /run",
+    "sample_mode_command": "python run.py --sample-mode",
+    "tests_command": "pytest backend/tests/ -q"
+  },
+  "compliance": {
+    "responsible_ai": "Incident-level linking only; no personal scoring or protected attribute profiling. All alerts require human verification.",
+    "privacy": "Automated EXIF and metadata stripping on public witness/CCTV submissions."
+  }
+}

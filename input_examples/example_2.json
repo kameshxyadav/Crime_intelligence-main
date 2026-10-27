@@ -1,0 +1,6 @@
+{
+  "scenario_id": "catalytic_converter",
+  "title": "Cross-Station Catalytic Converter Extraction Ring",
+  "query": "Investigate coordinated nocturnal catalytic converter thefts across Central and Riverside transit corridors",
+  "sample_mode": true
+}

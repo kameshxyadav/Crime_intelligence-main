@@ -1,0 +1,16 @@
+.env
+backend/.env
+*.env
+.git
+.github
+frontend/node_modules
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache
+backend/.pytest_cache
+.vscode
+.idea
+logs/*.jsonl
+.state/*

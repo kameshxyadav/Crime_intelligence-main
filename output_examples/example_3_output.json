@@ -1,0 +1,39 @@
+{
+  "run_id": "run-cli-1793043849",
+  "status": "success",
+  "scenario_id": "keyless_suv_relay",
+  "data_mode": "sample_mode",
+  "execution_time_seconds": 0.0018,
+  "alerts_count": 1,
+  "alerts": [
+    {
+      "link_id": "LINK-SAMPLE-03",
+      "source_incident_id": "INC-NORTH-0610",
+      "target_incident_id": "INC-RIVERSIDE-1120",
+      "stations_involved": [
+        "NORTH",
+        "RIVERSIDE"
+      ],
+      "similarity_basis": "Identical RF digital relay signature (14ms response delay) and dual-frequency 315/433MHz amplifier footprint on onboard ECU logs.",
+      "confidence_score": 0.91,
+      "confidence_rationale": "High digital forensic match between distinct vehicle manufacturers utilizing identical proprietary attack device.",
+      "supporting_evidence_ids": [
+        "FOR-0740",
+        "FOR-0911",
+        "CCTV-0899"
+      ],
+      "contradictions": []
+    }
+  ],
+  "agents": [
+    "Planner",
+    "Finder",
+    "Analyst",
+    "Skeptic",
+    "Reporter"
+  ],
+  "engines": [
+    "world_model",
+    "hmem"
+  ]
+}

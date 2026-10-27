@@ -1,0 +1,40 @@
+{
+  "run_id": "run-cli-1793043837",
+  "status": "success",
+  "scenario_id": "catalytic_converter",
+  "data_mode": "sample_mode",
+  "execution_time_seconds": 0.0029,
+  "alerts_count": 1,
+  "alerts": [
+    {
+      "link_id": "LINK-SAMPLE-02",
+      "source_incident_id": "INC-CENTRAL-0455",
+      "target_incident_id": "INC-RIVERSIDE-0812",
+      "stations_involved": [
+        "CENTRAL",
+        "RIVERSIDE"
+      ],
+      "similarity_basis": "Chemical residue and blade metallurgy (titanium carbonitride) identical across cut surfaces; vehicle description (silver hatchback) consistent across scenes.",
+      "confidence_score": 0.89,
+      "confidence_rationale": "High metallurgical precision via GC-MS corroborating consistent MO and surveillance video.",
+      "supporting_evidence_ids": [
+        "FOR-0322",
+        "FOR-0589",
+        "CCTV-0410",
+        "WIT-0388"
+      ],
+      "contradictions": []
+    }
+  ],
+  "agents": [
+    "Planner",
+    "Finder",
+    "Analyst",
+    "Skeptic",
+    "Reporter"
+  ],
+  "engines": [
+    "world_model",
+    "hmem"
+  ]
+}

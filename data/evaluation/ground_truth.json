@@ -1,0 +1,312 @@
+[
+  {
+    "relationship_id": "REL-SERIES-001",
+    "title": "Cross-Station Commercial Safe Burglary Syndicate (North & Central)",
+    "scenario_type": "SERIAL_BURGLARY",
+    "stations_involved": [
+      "NORTH",
+      "CENTRAL"
+    ],
+    "incident_ids": [
+      "INC-NORTH-0042",
+      "INC-CEN-0118",
+      "INC-NORTH-0294"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-0105",
+        "WIT-0240"
+      ],
+      "cctv_reports": [
+        "CCTV-0112",
+        "CCTV-0310"
+      ],
+      "forensic_reports": [
+        "FOR-0089",
+        "FOR-0195",
+        "FOR-0342"
+      ],
+      "newspaper_reports": [
+        "NEWS-0064"
+      ]
+    },
+    "why_related": "Cross-station organized burglary ring targeting commercial office safes using identical 36mm chisel-tip pry bar and a dark grey Dodge Caravan with dented tailgate (plate 7XK***).",
+    "supporting_evidence": [
+      "Forensic toolmark microscopic striations match exactly between FOR-0089, FOR-0195, and FOR-0342",
+      "CCTV-0112 and CCTV-0310 both capture dark grey minivan with identical partial plate '7XK***' and tailgate dent",
+      "Consistent early morning weekend timeframes (02:15 to 03:10 UTC)"
+    ],
+    "contradictions_and_limitations": [
+      "WIT-0240 observed vehicle as an SUV while WIT-0105 and CCTV confirmed minivan (tailgate dent matches)",
+      "CCTV-0310 suffered from night-IR glare preventing facial identification"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-SERIES-002",
+    "title": "Cross-Station Commuter Catalytic Converter Syndicate (Central & Riverside)",
+    "scenario_type": "SERIAL_THEFT",
+    "stations_involved": [
+      "CENTRAL",
+      "RIVERSIDE"
+    ],
+    "incident_ids": [
+      "INC-CEN-0450",
+      "INC-RIV-0182",
+      "INC-RIV-0305"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-0412",
+        "WIT-0628"
+      ],
+      "cctv_reports": [
+        "CCTV-0480",
+        "CCTV-0690"
+      ],
+      "forensic_reports": [
+        "FOR-0380",
+        "FOR-0512"
+      ],
+      "newspaper_reports": [
+        "NEWS-0215"
+      ]
+    },
+    "why_related": "Coordinated theft crew using silver Honda Civic with black passenger door (partial plate 88M***) and tungsten-carbide saw blades to sever catalytic converters at commuter parking facilities in Central and Riverside.",
+    "supporting_evidence": [
+      "Forensic GC-MS blade coating residue matches identically between FOR-0380 and FOR-0512",
+      "CCTV-0480 and CCTV-0690 both depict silver sedan with distinct black passenger door and plate 88M***",
+      "Matching sub-90-second jack-and-cut methodology across both station jurisdictions"
+    ],
+    "contradictions_and_limitations": [
+      "Clothing color contradiction: WIT-0412 reported red work jacket while WIT-0628 reported dark hoodie (suggests 2 crew members or outfit change)"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-SERIES-003",
+    "title": "Cross-Station Luxury SUV Keyless Relay Syndicate (North & Riverside)",
+    "scenario_type": "ORGANIZED_VEHICLE_THEFT",
+    "stations_involved": [
+      "NORTH",
+      "RIVERSIDE"
+    ],
+    "incident_ids": [
+      "INC-NORTH-0720",
+      "INC-RIV-0590"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-0785",
+        "WIT-0890"
+      ],
+      "cctv_reports": [
+        "CCTV-0810",
+        "CCTV-0955"
+      ],
+      "forensic_reports": [
+        "FOR-0640",
+        "FOR-0775"
+      ],
+      "newspaper_reports": [
+        "NEWS-0340"
+      ]
+    },
+    "why_related": "Professional automotive theft ring using advanced RF loop-antenna relay hardware to steal push-to-start luxury SUVs in North residential areas and transfer them to Riverside container piers.",
+    "supporting_evidence": [
+      "Identical digital RF relay handshake exploit packet signature verified in FOR-0640 and FOR-0775",
+      "CCTV-0810 records exact 45-second keyless loop antenna attack method",
+      "CCTV-0955 and WIT-0890 trace stolen luxury convoy into Riverside Pier 9 container staging lanes"
+    ],
+    "contradictions_and_limitations": [
+      "CCTV-0955 captured convoy at distance under degraded port lighting; partial plate 9PL*** captured"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-SERIES-004",
+    "title": "Cross-Station Distraction Burglary Scam Ring (Central & North)",
+    "scenario_type": "DISTRACTION_BURGLARY_FRAUD",
+    "stations_involved": [
+      "CENTRAL",
+      "NORTH"
+    ],
+    "incident_ids": [
+      "INC-CEN-0812",
+      "INC-NORTH-1104"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-1020",
+        "WIT-1180"
+      ],
+      "cctv_reports": [
+        "CCTV-1130",
+        "CCTV-1310"
+      ],
+      "forensic_reports": [
+        "FOR-0890",
+        "FOR-1025"
+      ],
+      "newspaper_reports": [
+        "NEWS-0480"
+      ]
+    },
+    "why_related": "Two-man team impersonating municipal water utility inspectors across Central and North stations to conduct distraction burglaries using a white Ford Transit van with ladder rack (partial plate 3TJ***).",
+    "supporting_evidence": [
+      "Forensic AFIS latent print match between FOR-0890 and FOR-1025 proves identical perpetrator handled victim property",
+      "CCTV-1130 and CCTV-1310 verify identical white Ford Transit van with roof ladder rack and plate 3TJ***",
+      "Identical MO involving fake water leak/contamination story requiring basement or kitchen water tap running"
+    ],
+    "contradictions_and_limitations": [
+      "Witnesses reported slight badge name variation ('City Water Dept' vs 'Metro Water Works') and vest color (orange vs yellow), indicating varied props used by suspects"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-CROSS-SINGLE-005",
+    "title": "Comprehensive Multi-Source Investigation: Grand Avenue Jewellers Ram-Raid (Central)",
+    "scenario_type": "MULTI_SOURCE_SINGLE_INCIDENT",
+    "stations_involved": [
+      "CENTRAL"
+    ],
+    "incident_ids": [
+      "INC-CEN-0005"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-0012",
+        "WIT-0015"
+      ],
+      "cctv_reports": [
+        "CCTV-0020",
+        "CCTV-0024"
+      ],
+      "forensic_reports": [
+        "FOR-0010",
+        "FOR-0014"
+      ],
+      "newspaper_reports": [
+        "NEWS-0008"
+      ]
+    },
+    "why_related": "All records corroborate different facets of the major smash-and-grab ram raid at Grand Avenue Luxury Jewellers on 2025-01-18.",
+    "supporting_evidence": [
+      "Synchronized chronological evidence spanning impact, escape, forensic DNA extraction, and public reporting",
+      "CCTV-0020 captures impact and truck plate 5WY***; FOR-0010 chemical paint analysis verifies truck paint transfer",
+      "FOR-0014 secures clean single-source male DNA profile from driver airbag"
+    ],
+    "contradictions_and_limitations": [
+      "Witness WIT-0015 initially perceived the midnight blue truck as black due to dim arcade street lighting; CCTV-0020 and forensic paint confirmed dark blue",
+      "Getaway black sedan utilized smoked plate cover obscuring registration"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-DISTRACTOR-006",
+    "title": "Known False Lead: Legitimate Commercial Plumber Excluded from Distraction Scam Ring",
+    "scenario_type": "FALSE_LEAD_EXCLUSION",
+    "stations_involved": [
+      "CENTRAL"
+    ],
+    "incident_ids": [
+      "INC-CEN-1680"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-1620"
+      ],
+      "cctv_reports": [
+        "CCTV-1750"
+      ],
+      "forensic_reports": [
+        "FOR-1390"
+      ],
+      "newspaper_reports": []
+    },
+    "why_related": "Reported as a potential continuation of the impostor water utility scam (REL-SERIES-004), but definitively proven to be a benign false alarm and investigative distractor.",
+    "supporting_evidence": [
+      "Forensic tire impression FOR-1390 confirms complete exclusion against suspect syndicate vehicle tread pattern",
+      "CCTV-1750 reveals legitimate commercial business lettering ('Apex Municipal Plumbing LLC') and plate 1PL***",
+      "Valid emergency municipal repair invoice verified by property manager"
+    ],
+    "contradictions_and_limitations": [
+      "WIT-1620 filed report due to heightened public anxiety following newspaper coverage NEWS-0480"
+    ],
+    "confidence_label": "EXCLUSION"
+  },
+  {
+    "relationship_id": "REL-SERIES-007",
+    "title": "Cross-Station Pharmaceutical Cold-Storage Diversion Ring (Riverside & Central)",
+    "scenario_type": "ORGANIZED_CARGO_FRAUD",
+    "stations_involved": [
+      "RIVERSIDE",
+      "CENTRAL"
+    ],
+    "incident_ids": [
+      "INC-RIV-0880",
+      "INC-CEN-1420"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-1340"
+      ],
+      "cctv_reports": [
+        "CCTV-1420",
+        "CCTV-1580"
+      ],
+      "forensic_reports": [
+        "FOR-1150",
+        "FOR-1280"
+      ],
+      "newspaper_reports": [
+        "NEWS-0620"
+      ]
+    },
+    "why_related": "Cargo theft ring utilizing compromised electronic shipping manifests and a white refrigerated Freightliner box truck (partial plate 4NV***) with blue chiller housing across Riverside and Central hubs.",
+    "supporting_evidence": [
+      "Forensic digital signature hash match confirms identical compromised cryptographic key used in FOR-1150 and FOR-1280",
+      "CCTV-1420 and CCTV-1580 identify the same refrigerated truck with distinctive blue rooftop chiller and plate 4NV***",
+      "Matching target cargo: multi-pallet refrigerated high-value pharmaceuticals"
+    ],
+    "contradictions_and_limitations": [
+      "Outdated corporate header on manifest noted by dock worker was initially dismissed as standard clerical lag"
+    ],
+    "confidence_label": "HIGH"
+  },
+  {
+    "relationship_id": "REL-DISTRACTOR-008",
+    "title": "Known False Lead: Opportunistic Juvenile Smash-and-Grab Excluded from Safe Burglary Syndicate",
+    "scenario_type": "FALSE_LEAD_EXCLUSION",
+    "stations_involved": [
+      "NORTH"
+    ],
+    "incident_ids": [
+      "INC-NORTH-0520"
+    ],
+    "source_record_ids": {
+      "witness_reports": [
+        "WIT-0510"
+      ],
+      "cctv_reports": [
+        "CCTV-0540"
+      ],
+      "forensic_reports": [
+        "FOR-0460"
+      ],
+      "newspaper_reports": [
+        "NEWS-0260"
+      ]
+    },
+    "why_related": "Occurred within the North precinct during the active period of REL-SERIES-001, but represents an unrelated, opportunistic solo juvenile smash-and-grab.",
+    "supporting_evidence": [
+      "Forensic DNA report FOR-0460 directly identifies local juvenile offender, excluding professional syndicate",
+      "CCTV-0540 confirms thrown cinder block MO with no pry tools or getaway vehicle used",
+      "Targeted items were dummy display phones rather than heavy safes"
+    ],
+    "contradictions_and_limitations": [
+      "Superficial geographic proximity and business category initially triggered cross-indexing in police blotter"
+    ],
+    "confidence_label": "EXCLUSION"
+  }
+]

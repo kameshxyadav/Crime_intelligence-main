@@ -1,0 +1,46 @@
+{
+  "run_id": "run-cli-1793043827",
+  "status": "success",
+  "scenario_id": "crowbar_safe_cracking",
+  "data_mode": "sample_mode",
+  "execution_time_seconds": 0.0058,
+  "alerts_count": 1,
+  "alerts": [
+    {
+      "link_id": "LINK-SAMPLE-01",
+      "source_incident_id": "INC-NORTH-0042",
+      "target_incident_id": "INC-CENTRAL-0118",
+      "stations_involved": [
+        "NORTH",
+        "CENTRAL"
+      ],
+      "similarity_basis": "Identical 36mm chisel-tip safe door prying toolmarks (FOR-0089 and FOR-0142 confirmed match).",
+      "confidence_score": 0.86,
+      "confidence_rationale": "High physical evidence correlation via laboratory comparison microscopy across precincts, supported by temporal proximity.",
+      "supporting_evidence_ids": [
+        "FOR-0089",
+        "FOR-0142",
+        "CCTV-0112",
+        "NEWS-0064"
+      ],
+      "contradictions": [
+        {
+          "source_id": "WIT-0105",
+          "description": "Eyewitness reported a dark red sedan fleeing Central incident, contradicting CCTV-0112 recording a dark grey minivan with dented tailgate at North scene.",
+          "flag": "vehicle_model_discrepancy"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    "Planner",
+    "Finder",
+    "Analyst",
+    "Skeptic",
+    "Reporter"
+  ],
+  "engines": [
+    "world_model",
+    "hmem"
+  ]
+}
